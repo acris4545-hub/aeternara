@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeternara - Energías y Transformación Personal</title>
+    <style>
+       body {
+    background-image: url("imagenes/An_oil_painting_on_canvas_features_a_regal,_divine.png");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;  
+    color: white;
+        }
+        header {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        header video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: brightness(0.4);
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            color: gold;
+            text-shadow: 0 0 25px rgba(255,215,0,0.8);
+        }
+        header p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: gold;
+            color: black;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 50px;
+            box-shadow: 0 0 20px gold;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #ffcc00;
+            box-shadow: 0 0 30px gold;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: gold;
+            margin-bottom: 40px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .service {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            transition: 0.3s;
+            backdrop-filter: blur(5px);
+        }
+        .service:hover {
+            background: rgba(255, 215, 0, 0.1);
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(255,215,0,0.3);
+        }
+        footer {
+            background: #111;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        /* --- ESTILOS PARA LOS NIVELES --- */
+        .contenedor-niveles {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 20px;
+          padding: 30px;
+        }
+
+        .nivel {
+          background: #111;
+          color: #fff;
+          border-radius: 20px;
+          padding: 20px;
+          text-align: center;
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .nivel h3 {
+          margin: 10px 0;
+        }
+
+        .btn-comprar {
+          background-color: #FFD600;
+          color: #000;
+          padding: 10px 20px;
+          border-radius: 25px;
+          text-decoration: none;
+          display: inline-block;
+          box-shadow: 0 0 20px #FFD600;
+          transition: 0.3s;
+          font-weight: bold;
+          border: none;
+          cursor: pointer;
+        }
+
+        .btn-comprar:hover {
+          box-shadow: 0 0 30px #FFD600;
+        }
+
+        .nivel img {
+          width: 100%;
+          height: 160px;
+          object-fit: cover;
+          border-radius: 15px;
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+        <h1>Aeternara</h1>
+        <p>Conecta con energías ancestrales y transforma tu destino. Guías y asesorías personalizadas para tu bienestar, prosperidad y protección.</p>
+        <a href="#servicios" class="btn">Explora Ahora</a>
+    </header>
+
+    <section id="servicios">
+        <h2>Niveles de Transformación</h2>
+        <div class="contenedor-niveles">
+
+          <div class="nivel">
+            <img src="imagenes/nivel5.jpg" alt="Pareja enamorada nivel 5">
+            <h3>Nivel 5</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$9.99</p>
+        <a class="btn-comprar payhip-buy-button" data-product="BI8bn">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel6.jpg" alt="Pareja enamorada nivel 6">
+            <h3>Nivel 6</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$13.99</p>
+          <a class="btn-comprar payhip-buy-button" data-product="U19R4">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel7.jpg" alt="Pareja enamorada nivel 7">
+            <h3>Nivel 7</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$16.99</p>
+           <a class="btn-comprar payhip-buy-button" data-product="OrvbW">Comprar</a> 
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel8.jpg" alt="Pareja enamorada nivel 8">
+            <h3>Nivel 8</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$19.99</p>
+          <a class="btn-comprar payhip-buy-button" data-product="4RcoW">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel9.jpg" alt="Pareja enamorada nivel 9">
+            <h3>Nivel 9</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$23.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="p6xeQ">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel10.jpg" alt="Pareja enamorada nivel 10">
+            <h3>Nivel 10</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$27.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="SJz7p">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel11.jpg" alt="Pareja enamorada nivel 11">
+            <h3>Nivel 11</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$30.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="uvXk2">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel12.jpg" alt="Pareja enamorada nivel 12">
+            <h3>Nivel 12</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$34.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="r0OhA">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel13.jpg" alt="Pareja enamorada nivel 13">
+            <h3>Nivel 13</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$38.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="9HZRT">Comprar</a>          
+</div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel14.jpg" alt="Pareja enamorada nivel 14">
+            <h3>Nivel 14</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$42.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="QG5D9">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel15.jpg" alt="Pareja enamorada nivel 15">
+            <h3>Nivel 15</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$45.99</p>
+             <a class="btn-comprar payhip-buy-button" data-product="5Hv8Z">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/nivel16.jpg" alt="Pareja enamorada nivel 16">
+            <h3>Nivel 16</h3>
+            <p>Asesoría personalizada para tu crecimiento.</p>
+            <p>$49.99</p>
+            <a class="btn-comprar payhip-buy-button" data-product="JSRsd">Comprar</a>
+
+          </div>
+ </div>
+    </section>
+
+    
+    <section id="reversiones">
+        <h2>Reversiones</h2>
+        <div class="contenedor-niveles">
+
+          <div class="nivel">
+            <img src="imagenes/reversion1.jpg" alt="Reversión nivel 1">
+            <h3>Reversión 1</h3>
+            <p>Incluye niveles 5, 6, 7 y 8</p>
+            <p>$99.00</p>
+             <a class="btn-comprar payhip-buy-button" data-product="gPvp2">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/reversion2.jpg" alt="Reversión nivel 2">
+            <h3>Reversión 2</h3>
+            <p>Incluye niveles 9, 10, 11 y 12</p>
+            <p>$199.00</p>
+           <a class="btn-comprar payhip-buy-button" data-product="5UIve">Comprar</a>
+          </div>
+
+          <div class="nivel">
+            <img src="imagenes/reversion3.jpg" alt="Reversión nivel 3">
+           <h3>Reversión 3</h3>
+           <p>Incluye niveles 13, 14, 15 y 16</p>
+            <p>$399.00</p>
+            <a class="btn-comprar payhip-buy-button" data-product="SmH4D">Comprar</a>
+          </div>
+
+        </div>
+    </section>
+<section>
+<h2 style="text-align:center; font-size: 28px; color: #fff; margin-bottom: 10px;">Contáctame</h2>
+  <p style="text-align:center; font-size: 18px; color: #fff; margin-bottom: 20px;">
+    Escríbeme por WhatsApp para iniciar tu transformación personal hoy mismo.
+  </p>
+  <div style="text-align:center;">
+    <a href="https://wa.me/50764579763" target="_blank" 
+       style="display: inline-block; padding: 14px 28px; background-color: #25d366; color: white; 
+              font-size: 18px; text-decoration: none; font-weight: bold; border-radius: 10px;
+              box-shadow: 0px 4px 8px rgba(0,0,0,0.2); transition: background-color 0.3s ease;">
+      💬 Enviar Mensaje
+    </a>
+  </div>
+  </section>
+    <footer>
+        © 2025 Aeternara. Todos los derechos reservados.
+    </footer>
+<script type="text/javascript" src="https://payhip.com/js/payhip.js"></script>
+</body>
+</html>
